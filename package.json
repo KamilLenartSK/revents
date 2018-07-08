@@ -3,14 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cuid": "^2.1.1",
+    "date-fns": "^1.29.0",
+    "firebase": "^4.12.1",
+    "google-map-react": "^1.0.5",
+    "moment": "^2.22.2",
     "react": "^16.4.1",
+    "react-cropper": "^1.0.1",
+    "react-datepicker": "^1.5.0",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-dropzone": "^4.2.12",
+    "react-lazyload": "^2.3.0",
+    "react-load-script": "^0.0.6",
+    "react-loadable": "^5.4.0",
+    "react-places-autocomplete": "^7.2.0",
+    "react-redux": "^5.0.7",
+    "react-redux-firebase": "^2.1.6",
+    "react-redux-toastr": "^7.3.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-firestore": "^0.5.7",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "revalidate": "^1.2.0",
+    "semantic-ui-css": "^2.3.2",
+    "semantic-ui-react": "^0.81.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.5"
   }
 }
